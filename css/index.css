@@ -1,0 +1,657 @@
+header {                           /* Cabeçalho */
+    background-color: #001223;
+    height: 65px;
+    width: auto;
+    border-bottom: 3px solid #0359FF;
+    padding: 10px 20px;
+}
+
+#logobernasserra {                               /* Logo */
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 31px;
+    border: 2px solid #00F0FF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#menuup {
+    margin-left: 60%;
+    margin-top: -65px;
+}
+
+a {                                 /* MENU */
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 1px solid #00F0FF;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+
+c {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 1px solid #00F0FF;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    background-color: #0359FF;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+
+#button {                           /* Download CV */
+    display: inline-block;
+    color: #03FF4A;
+    background-color: #002459;
+    Height: 60px;
+    border: none;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+    transition: transform 0.3s linear;
+}
+
+#button:hover {
+    transform: scale(1.1);
+}
+
+            /* MENU DE OPÇÕES */
+            /* MENU DE OPÇÕES */
+
+#contactos {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 1px solid #00F0FF;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#contactos:hover {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 2px solid #fbff00;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+#sobre {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 1px solid #00F0FF;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#sobre:hover {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 2px solid #fbff00;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+#projeto {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 1px solid #00F0FF;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#projeto:hover {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 2px solid #fbff00;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+#skils {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 1px solid #00F0FF;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#skils:hover {
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border-radius: 3px;
+    border: 2px solid #fbff00;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+            /*----------------*/
+            /*----------------*/
+
+#twobotoes {
+    margin-left: 191px;
+    margin-top: 350px;
+
+}
+
+#beca {
+    margin-left: 191px;
+    margin-top: 350px;
+}
+
+#imgscouts {
+    position: absolute;
+    width: 1500px;
+    height: 797px;
+    left: 0px;
+    top: 88px;
+    z-index: -999;
+    border-bottom: 4px solid #0359FF;
+}
+
+#imgwallpaper {
+    position: absolute;
+    width: 489px;
+    height: 797px;
+    right: 0px;
+    top: 88px;
+    z-index: -999;
+    border-left: 4px solid #0359FF;
+    border-bottom: 4px solid #0359FF;
+}
+
+#ctt {                           /* Contactos */
+    display: inline-block;
+    color: #ff7b00;
+    background-color: #002459;
+    Height: 60px;
+    border: none;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 120px;
+    transition: transform 0.3s linear;
+}
+
+#ctt:hover {
+    transform: scale(1.1);
+}
+
+#dwncv {                           /* Download CV */
+    display: inline-block;
+    color: #ff7b00;
+    background-color: #002459;
+    Height: 60px;
+    border: none;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 120px;
+    transition: transform 0.3s linear;
+}
+
+#dwncv:hover {
+    transform: scale(1.1);
+}
+
+#bgbernascard {
+    position: absolute;
+    width: 627px;
+    height: 184px;
+    left: 95px;
+    top: 196px;
+    box-shadow: 5px 5px 0 black;
+    background: #001C1E;
+}
+
+#berna {
+    position: absolute;
+    width: 578px;
+    height: 50px;
+    left: 112px;
+    top: 208px;
+
+    /* Headline */
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #004FE2;
+
+    text-shadow: 8px 8px 3px #000000;
+}
+
+#devdes {
+    position: absolute;
+    width: 578px;
+    height: 80px;
+    left: 112px;
+    top: 308px;
+
+    /* Headline */
+
+    font-family: CROSSROADS;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 65px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #d8d8d8;
+
+    text-shadow: 4px 4px 0px #000000;
+}
+
+            /*     SKILLS     */
+            /*     SKILLS     */
+
+
+#skillstitle {
+    margin-top: 455px;    
+    margin-left: 810px;
+    width: 210px;
+    height: 70px;
+    border-radius: 10px;
+    border: 5px solid #00F0FF;
+
+    font-family: CROSSROADS;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 75px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #d8d8d8;
+}
+
+#bgskils {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: -1px;
+    top: 889px;
+    z-index: -999;
+    background: #001234;
+}
+
+    /*------ HTML ------*/
+
+#htmlskill {
+    position: absolute;
+    width: 80.27px;
+    height: 90px;
+    left: 239px;
+    top: 1164px;    
+}
+
+#htmlskilltitle {
+    margin-top: 120px;    
+    margin-left: -1110px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #d8d8d8;
+}
+
+#barwhitehtml {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 330px;
+    top: 1210px;
+
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+#bargreenhtml {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 330px;
+    top: 1210px;
+
+    background: #25db00;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+/*------ CSS ------*/
+
+#cssskill {
+    position: absolute;
+    width: 80.27px;
+    height: 90px;
+    left: 239px;
+    margin-top: 160px;   
+}
+
+#cssskilltitle {
+    margin-top: 145px;    
+    margin-left: -1110px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #d8d8d8;
+}
+
+#barwhitecss {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 330px;
+    margin-top: 2px;   
+
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+#bargreencss {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 330px;
+    margin-top: 2px; 
+
+    background: #25db00;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+/*------ JAVA SCRIPT ------*/
+
+#jsskill {
+    position: absolute;
+    width: 80.27px;
+    height: 90px;
+    right: 685px;
+    top: 1166px;   
+}
+
+#jsskilltitle {
+    margin-top: -265px;    
+    margin-right: -735px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #d8d8d8;
+}
+
+#barwhitejs {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    right: 330px;
+    margin-top: 2px;   
+
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+#bargreenjs {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 1200px;
+    margin-top: 2px; 
+
+    background: #25db00;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+/*------ LUA ------*/
+
+#luaskill {
+    position: absolute;
+    width: 80.27px;
+    height: 90px;
+    right: 685px;
+    margin-top: 160px;      
+}
+
+#luaskilltitle {
+    margin-top: 145px;      
+    margin-right: -595px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #d8d8d8;
+}
+
+#barwhitelua {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    right: 330px;
+    margin-top: 2px;   
+
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+#bargreenlua {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 1200px;
+    margin-top: 2px; 
+
+    background: #25db00;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+            /*----------------*/
+            /*----------------*/
+
+            /*    PROJECTS    */
+            /*    PROJECTS    */
+
+#bgprojetos {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: -1px;
+    top: 1589px;
+    z-index: -999;
+    border-top: 3px solid #0359FF;
+    background: #050505;
+    border-bottom: 3px solid #0359FF;
+}
+
+#projectstitle {
+    margin-top: 250px;    
+    margin-left: 760px;
+    width: 310px;
+    height: 70px;
+    border-radius: 10px;
+    border: 5px solid #ff6600;
+
+    font-family: CROSSROADS;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 75px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #d8d8d8;
+}
+
+#projectscoth {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: 250px;
+    top: 1900px;
+    z-index: -999;
+    background: #001dbe;
+    box-shadow: 10px 10px 0px #FFFFFF;
+}
+
+#projectportfolio {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    right: 250px;
+    top: 1900px;
+    z-index: -999;
+    background: #001dbe;
+    box-shadow: 10px 10px 0px #FFFFFF;
+}
+
+#logoscoth {
+    height: 250px;
+    margin-top: 150px;
+    margin-left: 265px;
+}
+
+#logosportf {
+    height: 250px;
+    margin-top: 165px;
+    margin-left: 845px;
+    border-radius: 40px;
+}
+
+            /*     SOBRE     */
+            /*     SOBRE     */
